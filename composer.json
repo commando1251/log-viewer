@@ -38,12 +38,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Opcodes\\LogViewer\\": "src"
+            "Commando1251\\LogViewer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Opcodes\\LogViewer\\Tests\\": "tests"
+            "Commando1251\\LogViewer\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Opcodes\\LogViewer\\LogViewerServiceProvider"
+                "Commando1251\\LogViewer\\LogViewerServiceProvider"
             ],
             "aliases": {
-                "LogViewer": "Opcodes\\LogViewer\\Facades\\LogViewer"
+                "LogViewer": "Commando1251\\LogViewer\\Facades\\LogViewer"
             }
         }
     },

@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer\Readers;
+namespace Commando1251\LogViewer\Readers;
 
-use Opcodes\LogViewer\Concerns;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogLevels\LevelInterface;
-use Opcodes\LogViewer\Logs\Log;
+use Commando1251\LogViewer\Concerns;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\LogLevels\LevelInterface;
+use Commando1251\LogViewer\Logs\Log;
 
 abstract class BaseLogReader
 {

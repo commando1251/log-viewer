@@ -1,15 +1,15 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Commando1251\LogViewer;
 
 use Illuminate\Support\Arr;
-use Opcodes\LogViewer\Events\LogFileDeleted;
-use Opcodes\LogViewer\Exceptions\CannotOpenFileException;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Logs\LogType;
-use Opcodes\LogViewer\Readers\LogReaderInterface;
-use Opcodes\LogViewer\Utils\Utils;
+use Commando1251\LogViewer\Events\LogFileDeleted;
+use Commando1251\LogViewer\Exceptions\CannotOpenFileException;
+use Commando1251\LogViewer\Exceptions\InvalidRegularExpression;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\Readers\LogReaderInterface;
+use Commando1251\LogViewer\Utils\Utils;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class LogFile

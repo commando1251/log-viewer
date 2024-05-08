@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Middleware;
+namespace Commando1251\LogViewer\Http\Middleware;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Gate;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Facades\LogViewer;
 
 class AuthorizeLogViewer
 {

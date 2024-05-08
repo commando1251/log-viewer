@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogIndex;
+namespace Commando1251\LogViewer\Concerns\LogIndex;
 
 use Carbon\CarbonInterface;
 use Opcodes\LogViewer\Facades\Cache;

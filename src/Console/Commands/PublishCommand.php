@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Console\Commands;
+namespace Commando1251\LogViewer\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\LogViewerServiceProvider;
+use Commando1251\LogViewer\LogViewerServiceProvider;
 use Spatie\Watcher\Watch;
 
 class PublishCommand extends Command

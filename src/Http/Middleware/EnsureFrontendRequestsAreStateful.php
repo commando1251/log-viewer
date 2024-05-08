@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Middleware;
+namespace Commando1251\LogViewer\Http\Middleware;
 
 use Illuminate\Routing\Pipeline;
 use Illuminate\Support\Collection;

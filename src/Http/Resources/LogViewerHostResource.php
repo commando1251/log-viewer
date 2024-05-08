@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Resources;
+namespace Commando1251\LogViewer\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogReader;
+namespace Commando1251\LogViewer\Concerns\LogReader;
 
 use Opcodes\LogViewer\Utils\Utils;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Commando1251\LogViewer\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\URL;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Http\Resources\LogFolderResource;
-use Opcodes\LogViewer\LogFile;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Http\Resources\LogFolderResource;
+use Commando1251\LogViewer\LogFile;
 
 class FoldersController
 {

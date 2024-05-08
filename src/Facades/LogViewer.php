@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer\Facades;
+namespace Commando1251\LogViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Opcodes\LogViewer\Host;
-use Opcodes\LogViewer\HostCollection;
-use Opcodes\LogViewer\LogFile;
+use Commando1251\LogViewer\Host;
+use Commando1251\LogViewer\HostCollection;
+use Commando1251\LogViewer\LogFile;
 use Opcodes\LogViewer\LogFileCollection;
 use Opcodes\LogViewer\LogFolder;
 use Opcodes\LogViewer\LogFolderCollection;

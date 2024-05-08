@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Commando1251\LogViewer;
 
 use Illuminate\Support\Collection;
-use Opcodes\LogViewer\Readers\MultipleLogReader;
+use Commando1251\LogViewer\Readers\MultipleLogReader;
 
 /**
  * @var LogFile[] $items

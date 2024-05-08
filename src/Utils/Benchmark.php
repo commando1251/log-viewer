@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Commando1251\LogViewer\Utils;
 
 class Benchmark
 {

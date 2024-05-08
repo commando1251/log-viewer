@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Events;
+namespace Commando1251\LogViewer\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
-use Opcodes\LogViewer\LogFile;
+use Commando1251\LogViewer\LogFile;
 
 class LogFileDeleted
 {

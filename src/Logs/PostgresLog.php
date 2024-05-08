@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Logs;
+namespace Commando1251\LogViewer\Logs;
 
 use Carbon\CarbonInterface;
 use Illuminate\Support\Carbon;
-use Opcodes\LogViewer\LogLevels\PostgresLevel;
+use Commando1251\LogViewer\LogLevels\PostgresLevel;
 
 class PostgresLog extends Log
 {

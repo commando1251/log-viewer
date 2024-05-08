@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Readers;
+namespace Commando1251\LogViewer\Readers;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
-use Opcodes\LogViewer\Concerns;
+use Commando1251\LogViewer\Concerns;
 use Opcodes\LogViewer\Exceptions\CannotOpenFileException;
 use Opcodes\LogViewer\Exceptions\SkipLineException;
 use Opcodes\LogViewer\Facades\LogViewer;

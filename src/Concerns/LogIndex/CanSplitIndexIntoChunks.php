@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogIndex;
+namespace Commando1251\LogViewer\Concerns\LogIndex;
 
 use Opcodes\LogViewer\Exceptions\InvalidChunkSizeException;
 use Opcodes\LogViewer\LogIndexChunk;

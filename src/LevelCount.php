@@ -1,8 +1,8 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Commando1251\LogViewer;
 
-use Opcodes\LogViewer\LogLevels\LevelInterface;
+use Commando1251\LogViewer\LogLevels\LevelInterface;
 
 class LevelCount
 {

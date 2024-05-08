@@ -1,8 +1,8 @@
 <?php
 
-namespace Opcodes\LogViewer\Logs;
+namespace Commando1251\LogViewer\Logs;
 
-use Opcodes\LogViewer\LogTypeRegistrar;
+use Commando1251\LogViewer\LogTypeRegistrar;
 
 class LogType
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Commando1251\LogViewer\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Http\Resources\LevelCountResource;
-use Opcodes\LogViewer\Http\Resources\LogFileResource;
-use Opcodes\LogViewer\Http\Resources\LogResource;
-use Opcodes\LogViewer\Logs\Log;
+use Commando1251\LogViewer\Exceptions\InvalidRegularExpression;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Http\Resources\LevelCountResource;
+use Commando1251\LogViewer\Http\Resources\LogFileResource;
+use Commando1251\LogViewer\Http\Resources\LogResource;
+use Commando1251\LogViewer\Logs\Log;
 
 class LogsController
 {

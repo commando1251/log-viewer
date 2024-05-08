@@ -1,8 +1,8 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Commando1251\LogViewer\Utils;
 
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
+use Commando1251\LogViewer\Exceptions\InvalidRegularExpression;
 
 class Utils
 {

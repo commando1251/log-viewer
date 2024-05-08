@@ -1,8 +1,8 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Commando1251\LogViewer\Utils;
 
-use Opcodes\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Facades\LogViewer;
 use Opcodes\LogViewer\LogFile;
 use Opcodes\LogViewer\LogIndex;
 

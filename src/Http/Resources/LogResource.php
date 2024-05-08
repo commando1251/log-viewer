@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Resources;
+namespace Commando1251\LogViewer\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
 /**
- * @mixin \Opcodes\LogViewer\Logs\Log
+ * @mixin \Commando1251\LogViewer\Logs\Log
  */
 class LogResource extends JsonResource
 {

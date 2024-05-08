@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\LogLevels;
+namespace Commando1251\LogViewer\LogLevels;
 
 class RedisLogLevel implements LevelInterface
 {

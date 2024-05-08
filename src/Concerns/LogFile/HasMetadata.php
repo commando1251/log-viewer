@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns\LogFile;
+namespace Commando1251\LogViewer\Concerns\LogFile;
 
 trait HasMetadata
 {

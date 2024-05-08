@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Commando1251\LogViewer;
 
 use Carbon\CarbonInterface;
 use Illuminate\Support\Collection;
-use Opcodes\LogViewer\Utils\Utils;
+use Commando1251\LogViewer\Utils\Utils;
 
 class LogIndex
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Facades;
+namespace Commando1251\LogViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

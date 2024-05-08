@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Console\Commands;
+namespace Commando1251\LogViewer\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

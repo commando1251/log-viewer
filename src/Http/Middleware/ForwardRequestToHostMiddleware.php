@@ -1,12 +1,12 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Middleware;
+namespace Commando1251\LogViewer\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Facades\LogViewer;
 
 class ForwardRequestToHostMiddleware
 {

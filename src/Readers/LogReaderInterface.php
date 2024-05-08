@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Readers;
+namespace Commando1251\LogViewer\Readers;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\Logs\Log;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\Logs\Log;
 
 interface LogReaderInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Commando1251\LogViewer;
 
 use Composer\InstalledVersions;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -8,9 +8,9 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Readers\IndexedLogReader;
-use Opcodes\LogViewer\Readers\LogReaderInterface;
-use Opcodes\LogViewer\Utils\Utils;
+use Commando1251\LogViewer\Readers\IndexedLogReader;
+use Commando1251\LogViewer\Readers\LogReaderInterface;
+use Commando1251\LogViewer\Utils\Utils;
 
 class LogViewerService
 {

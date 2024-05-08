@@ -1,21 +1,21 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Commando1251\LogViewer;
 
-use Opcodes\LogViewer\Exceptions\CannotOpenFileException;
-use Opcodes\LogViewer\Exceptions\SkipLineException;
-use Opcodes\LogViewer\Logs\HorizonLog;
-use Opcodes\LogViewer\Logs\HorizonOldLog;
-use Opcodes\LogViewer\Logs\HttpAccessLog;
-use Opcodes\LogViewer\Logs\HttpApacheErrorLog;
-use Opcodes\LogViewer\Logs\HttpNginxErrorLog;
-use Opcodes\LogViewer\Logs\LaravelLog;
-use Opcodes\LogViewer\Logs\Log;
-use Opcodes\LogViewer\Logs\LogType;
-use Opcodes\LogViewer\Logs\PhpFpmLog;
-use Opcodes\LogViewer\Logs\PostgresLog;
-use Opcodes\LogViewer\Logs\RedisLog;
-use Opcodes\LogViewer\Logs\SupervisorLog;
+use Commando1251\LogViewer\Exceptions\CannotOpenFileException;
+use Commando1251\LogViewer\Exceptions\SkipLineException;
+use Commando1251\LogViewer\Logs\HorizonLog;
+use Commando1251\LogViewer\Logs\HorizonOldLog;
+use Commando1251\LogViewer\Logs\HttpAccessLog;
+use Commando1251\LogViewer\Logs\HttpApacheErrorLog;
+use Commando1251\LogViewer\Logs\HttpNginxErrorLog;
+use Commando1251\LogViewer\Logs\LaravelLog;
+use Commando1251\LogViewer\Logs\Log;
+use Commando1251\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\Logs\PhpFpmLog;
+use Commando1251\LogViewer\Logs\PostgresLog;
+use Commando1251\LogViewer\Logs\RedisLog;
+use Commando1251\LogViewer\Logs\SupervisorLog;
 
 class LogTypeRegistrar
 {

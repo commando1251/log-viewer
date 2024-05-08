@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Resources;
+namespace Commando1251\LogViewer\Http\Resources;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
-use Opcodes\LogViewer\LogLevels\LevelInterface;
+use Commando1251\LogViewer\LogLevels\LevelInterface;
 
 /**
  * @property-read LevelInterface $level
