@@ -71,7 +71,7 @@
           </MenuItem>
 
           <MenuItem v-slot="{ active }">
-            <a href="https://www.github.com/opcodesio/log-viewer" target="_blank" :class="[active ? 'active' : '']">
+            <a href="https://www.github.com/commando1251/log-viewer" target="_blank" :class="[active ? 'active' : '']">
               <QuestionMarkCircleIcon class="w-4 h-4" />
               Help
             </a>

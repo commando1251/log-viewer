@@ -63,7 +63,7 @@ Documentation can be found on the [official website](https://log-viewer.opcodes.
 To install the package via composer, Run:
 
 ```bash
-composer require opcodesio/log-viewer
+composer require commando1251/log-viewer
 ```
 
 After installing the package, publish the front-end assets by running:
