@@ -3,10 +3,10 @@
 use Carbon\CarbonInterface;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogIndex;
-use Opcodes\LogViewer\Logs\LogType;
-use Opcodes\LogViewer\Tests\TestCase;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\LogIndex;
+use Commando1251\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
 uses()->afterEach(fn () => clearGeneratedLogFiles())->in('Feature', 'Unit');

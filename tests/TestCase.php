@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Tests;
+namespace Commando1251\LogViewer\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
-use Opcodes\LogViewer\LogViewerServiceProvider;
+use Commando1251\LogViewer\LogViewerServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -18,7 +18,7 @@ class TestCase extends Orchestra
         }
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Opcodes\\LogViewer\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Commando1251\\LogViewer\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

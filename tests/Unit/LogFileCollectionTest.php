@@ -1,9 +1,9 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogFileCollection;
-use Opcodes\LogViewer\LogFolder;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\LogFileCollection;
+use Commando1251\LogViewer\LogFolder;
 
 test('LogViewer::getFiles() returns a LogFileCollection', function () {
     expect(LogViewer::getFiles())->toBeInstanceOf(LogFileCollection::class);

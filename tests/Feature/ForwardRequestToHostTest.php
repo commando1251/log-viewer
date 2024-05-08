@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Facades\LogViewer;
 
 beforeEach(function () {
     config(['log-viewer.hosts' => [
@@ -14,7 +14,7 @@ beforeEach(function () {
     $this->remoteHost = LogViewer::getHosts()->remote()->first();
 });
 
-function expectedNewUrl($originalUrl, Opcodes\LogViewer\Host $host): string
+function expectedNewUrl($originalUrl, Commando1251\LogViewer\Host $host): string
 {
     $newUrl = Str::replaceFirst(
         route('log-viewer.index'), // http://localhost/log-viewer

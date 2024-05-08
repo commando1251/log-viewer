@@ -2,8 +2,8 @@
 
 namespace Commando1251\LogViewer\Concerns\LogIndex;
 
-use Opcodes\LogViewer\Exceptions\InvalidChunkSizeException;
-use Opcodes\LogViewer\LogIndexChunk;
+use Commando1251\LogViewer\Exceptions\InvalidChunkSizeException;
+use Commando1251\LogViewer\LogIndexChunk;
 
 trait CanSplitIndexIntoChunks
 {

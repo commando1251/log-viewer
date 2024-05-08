@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Gate;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Facades\LogViewer;
 
 use function Pest\Laravel\get;
 
@@ -60,7 +60,7 @@ test('Log Viewer is not blocked if the Log Viewer auth middleware is not used', 
     app()->detectEnvironment(fn () => 'production');
     expect(app()->isProduction())->toBeTrue();
     // need to reload the routes in order for the new middleware to take place.
-    (new \Opcodes\LogViewer\LogViewerServiceProvider(app()))->boot();
+    (new \Commando1251\LogViewer\LogViewerServiceProvider(app()))->boot();
 
     get(route('log-viewer.index'))->assertOk();
 });

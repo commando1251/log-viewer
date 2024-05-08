@@ -2,7 +2,7 @@
 
 namespace Commando1251\LogViewer\Concerns\LogReader;
 
-use Opcodes\LogViewer\LogFile;
+use Commando1251\LogViewer\LogFile;
 
 trait KeepsInstances
 {

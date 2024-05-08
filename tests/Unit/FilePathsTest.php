@@ -1,7 +1,7 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogViewerService;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LogViewerService;
 
 beforeEach(function () {
     // irrelevant option for these tests, so let's show all files.

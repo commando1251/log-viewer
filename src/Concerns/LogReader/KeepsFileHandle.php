@@ -2,8 +2,8 @@
 
 namespace Commando1251\LogViewer\Concerns\LogReader;
 
-use Opcodes\LogViewer\Exceptions\CannotCloseFileException;
-use Opcodes\LogViewer\Exceptions\CannotOpenFileException;
+use Commando1251\LogViewer\Exceptions\CannotCloseFileException;
+use Commando1251\LogViewer\Exceptions\CannotOpenFileException;
 
 trait KeepsFileHandle
 {

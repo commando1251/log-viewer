@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Facades\LogViewer;
 
 it('continues reading when one file cannot be read', function () {
     if (PHP_OS_FAMILY === 'Windows') {

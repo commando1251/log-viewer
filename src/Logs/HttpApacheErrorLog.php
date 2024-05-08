@@ -5,7 +5,7 @@ namespace Commando1251\LogViewer\Logs;
 use Carbon\CarbonInterface;
 use Illuminate\Support\Carbon;
 use Commando1251\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogLevels\LaravelLogLevel;
+use Commando1251\LogViewer\LogLevels\LaravelLogLevel;
 
 class HttpApacheErrorLog extends Log
 {

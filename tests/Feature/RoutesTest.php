@@ -56,5 +56,5 @@ function reloadRoutes(): void
     app('router')->setRoutes(new \Illuminate\Routing\RouteCollection());
 
     // boot the service provider to register the routes again
-    (new \Opcodes\LogViewer\LogViewerServiceProvider(app()))->boot();
+    (new \Commando1251\LogViewer\LogViewerServiceProvider(app()))->boot();
 }

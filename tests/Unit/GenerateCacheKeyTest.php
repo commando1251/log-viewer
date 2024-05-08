@@ -1,8 +1,8 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\Utils\GenerateCacheKey;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\Utils\GenerateCacheKey;
 
 it('can generate a cache key for a LogFile', function () {
     $file = new LogFile('test.log');

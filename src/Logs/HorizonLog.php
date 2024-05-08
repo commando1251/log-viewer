@@ -3,8 +3,8 @@
 namespace Commando1251\LogViewer\Logs;
 
 use Commando1251\LogViewer\Exceptions\SkipLineException;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogLevels\HorizonStatusLevel;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LogLevels\HorizonStatusLevel;
 
 class HorizonLog extends Log
 {

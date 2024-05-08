@@ -3,8 +3,8 @@
 namespace Commando1251\LogViewer\Utils;
 
 use Commando1251\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogIndex;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\LogIndex;
 
 class GenerateCacheKey
 {

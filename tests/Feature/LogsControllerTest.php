@@ -30,7 +30,7 @@ test('simple characters can be searched case-insensitive', function () {
     expect($response->json('logs'))->toHaveCount(count($logEntries));
 
     // now, with the query. Re-instantiate the log reader to make sure we don't have anything cached.
-    \Opcodes\LogViewer\Readers\IndexedLogReader::clearInstance($file);
+    \Commando1251\LogViewer\Readers\IndexedLogReader::clearInstance($file);
     $response = getJson(route('log-viewer.logs', [
         'file' => $file->identifier,
         'query' => 'error',
@@ -54,7 +54,7 @@ test('unicode characters can be searched case-insensitive', function () {
     expect($response->json('logs'))->toHaveCount(count($logEntries));
 
     // now, with the query. Re-instantiate the log reader to make sure we don't have anything cached.
-    \Opcodes\LogViewer\Readers\IndexedLogReader::clearInstance($file);
+    \Commando1251\LogViewer\Readers\IndexedLogReader::clearInstance($file);
     $response = getJson(route('log-viewer.logs', [
         'file' => $file->identifier,
         'query' => 'ошибка',

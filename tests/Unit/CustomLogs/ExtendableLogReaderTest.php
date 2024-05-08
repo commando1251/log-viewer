@@ -1,10 +1,10 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Logs\LogType;
-use Opcodes\LogViewer\LogTypeRegistrar;
-use Opcodes\LogViewer\Tests\Unit\CustomLogs\CustomAccessLog;
-use Opcodes\LogViewer\Tests\Unit\CustomLogs\CustomHttpAccessLog;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\LogTypeRegistrar;
+use Commando1251\LogViewer\Tests\Unit\CustomLogs\CustomAccessLog;
+use Commando1251\LogViewer\Tests\Unit\CustomLogs\CustomHttpAccessLog;
 
 beforeEach(function () {
     $this->logRegistrar = app(LogTypeRegistrar::class);
@@ -25,7 +25,7 @@ it('cannot extend with a non-existent class', function () {
 })->throws(InvalidArgumentException::class);
 
 it('overrides an existing class with the same type', function () {
-    expect($this->logRegistrar->getClass(LogType::LARAVEL))->toBe(\Opcodes\LogViewer\Logs\LaravelLog::class);
+    expect($this->logRegistrar->getClass(LogType::LARAVEL))->toBe(\Commando1251\LogViewer\Logs\LaravelLog::class);
 
     LogViewer::extend('laravel', CustomAccessLog::class);
 

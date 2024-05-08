@@ -1,8 +1,8 @@
 <?php
 
-namespace Opcodes\LogViewer\Tests\Unit\CustomLogs;
+namespace Commando1251\LogViewer\Tests\Unit\CustomLogs;
 
-use Opcodes\LogViewer\Logs\HttpAccessLog;
+use Commando1251\LogViewer\Logs\HttpAccessLog;
 
 class CustomHttpAccessLog extends HttpAccessLog
 {

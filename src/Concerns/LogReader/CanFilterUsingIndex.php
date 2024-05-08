@@ -2,7 +2,7 @@
 
 namespace Commando1251\LogViewer\Concerns\LogReader;
 
-use Opcodes\LogViewer\Utils\Utils;
+use Commando1251\LogViewer\Utils\Utils;
 
 trait CanFilterUsingIndex
 {

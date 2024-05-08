@@ -1,9 +1,9 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Host;
-use Opcodes\LogViewer\HostCollection;
-use Opcodes\LogViewer\Utils\Utils;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\Host;
+use Commando1251\LogViewer\HostCollection;
+use Commando1251\LogViewer\Utils\Utils;
 
 it('can get a list of hosts from configuration', function () {
     config(['log-viewer.hosts' => $hostConfigs = [

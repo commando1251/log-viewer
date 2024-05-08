@@ -5,12 +5,12 @@ namespace Commando1251\LogViewer\Readers;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Commando1251\LogViewer\Concerns;
-use Opcodes\LogViewer\Exceptions\CannotOpenFileException;
-use Opcodes\LogViewer\Exceptions\SkipLineException;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LevelCount;
-use Opcodes\LogViewer\LogIndex;
-use Opcodes\LogViewer\Logs\Log;
+use Commando1251\LogViewer\Exceptions\CannotOpenFileException;
+use Commando1251\LogViewer\Exceptions\SkipLineException;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LevelCount;
+use Commando1251\LogViewer\LogIndex;
+use Commando1251\LogViewer\Logs\Log;
 
 class IndexedLogReader extends BaseLogReader implements LogReaderInterface
 {

@@ -4,8 +4,8 @@ namespace Commando1251\LogViewer\Concerns\LogFile;
 
 use Carbon\CarbonInterface;
 use Commando1251\LogViewer\Facades\Cache;
-use Opcodes\LogViewer\Utils\GenerateCacheKey;
-use Opcodes\LogViewer\Utils\Utils;
+use Commando1251\LogViewer\Utils\GenerateCacheKey;
+use Commando1251\LogViewer\Utils\Utils;
 
 trait CanCacheData
 {

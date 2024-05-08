@@ -7,10 +7,10 @@ use Illuminate\Pagination\Paginator;
 use Commando1251\LogViewer\Direction;
 use Commando1251\LogViewer\Exceptions\CannotOpenFileException;
 use Commando1251\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LevelCount;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogFileCollection;
-use Opcodes\LogViewer\Logs\Log;
+use Commando1251\LogViewer\LevelCount;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\LogFileCollection;
+use Commando1251\LogViewer\Logs\Log;
 
 class MultipleLogReader
 {

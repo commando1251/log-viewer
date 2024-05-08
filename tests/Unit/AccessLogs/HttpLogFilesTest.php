@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\Logs\LogType;
 
 beforeEach(function () {
     File::makeDirectory(storage_path('logs/http'), 0755, true);

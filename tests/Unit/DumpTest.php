@@ -6,5 +6,5 @@ test('dumps', function () {
     }
 
     expect('dd')->not->toBeUsed()
-        ->and('dump')->toOnlyBeUsedIn('Opcodes\LogViewer\Utils\Benchmark');
+        ->and('dump')->toOnlyBeUsedIn('Commando1251\LogViewer\Utils\Benchmark');
 });

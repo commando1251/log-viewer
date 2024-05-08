@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\Logs\LaravelLog;
+use Commando1251\LogViewer\Logs\LaravelLog;
 
 use function PHPUnit\Framework\assertEquals;
 

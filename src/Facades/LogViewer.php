@@ -6,13 +6,13 @@ use Illuminate\Support\Facades\Facade;
 use Commando1251\LogViewer\Host;
 use Commando1251\LogViewer\HostCollection;
 use Commando1251\LogViewer\LogFile;
-use Opcodes\LogViewer\LogFileCollection;
-use Opcodes\LogViewer\LogFolder;
-use Opcodes\LogViewer\LogFolderCollection;
-use Opcodes\LogViewer\Readers\LogReaderInterface;
+use Commando1251\LogViewer\LogFileCollection;
+use Commando1251\LogViewer\LogFolder;
+use Commando1251\LogViewer\LogFolderCollection;
+use Commando1251\LogViewer\Readers\LogReaderInterface;
 
 /**
- * @see \Opcodes\LogViewer\LogViewerService
+ * @see \Commando1251\LogViewer\LogViewerService
  *
  * @method static string version()
  * @method static string timezone()

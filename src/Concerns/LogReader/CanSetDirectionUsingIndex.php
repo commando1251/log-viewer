@@ -2,7 +2,7 @@
 
 namespace Commando1251\LogViewer\Concerns\LogReader;
 
-use Opcodes\LogViewer\Direction;
+use Commando1251\LogViewer\Direction;
 
 trait CanSetDirectionUsingIndex
 {

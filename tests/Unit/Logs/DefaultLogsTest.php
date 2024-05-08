@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\Logs\LogType;
 
 it('can process unknown logs', function () {
     $file = generateLogFile('default_dummy.log', content: <<<'EOF'

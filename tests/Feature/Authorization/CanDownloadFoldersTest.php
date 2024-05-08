@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\URL;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFolder;
+use Commando1251\LogViewer\Facades\LogViewer;
+use Commando1251\LogViewer\LogFolder;
 
 use function Pest\Laravel\get;
 

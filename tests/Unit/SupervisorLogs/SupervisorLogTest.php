@@ -1,7 +1,7 @@
 <?php
 
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\Logs\LogType;
+use Commando1251\LogViewer\LogFile;
+use Commando1251\LogViewer\Logs\LogType;
 
 it('can process Supervisor logs', function () {
     $file = generateLogFile('supervisor.log', <<<'LOG'
