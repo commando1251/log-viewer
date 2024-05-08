@@ -4,7 +4,7 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": "https://github.com/opcodesio/log-viewer.git"
+        "url": "https://github.com/commando1251/log-viewer.git"
     },
     "scripts": {
         "dev": "npm run development",
