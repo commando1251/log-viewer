@@ -1,6 +1,6 @@
 {
-    "name": "opcodesio/log-viewer",
-    "description": "Fast and easy-to-use log viewer for your Laravel application",
+    "name": "commando1251/log-viewer",
+    "description": "Fast and easy-to-use log viewer for your Laravel application. This package is a fork with Kuber fix",
     "keywords": [
         "arukompas",
         "opcodesio",
@@ -9,7 +9,7 @@
         "log viewer",
         "better-log-viewer"
     ],
-    "homepage": "https://github.com/opcodesio/log-viewer",
+    "homepage": "https://github.com/commando1251/log-viewer",
     "license": "MIT",
     "authors": [
         {
