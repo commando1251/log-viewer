@@ -36,8 +36,6 @@ class MultipleLogReader
 
     public function exceptLevels($levels = null): self
     {
-        $this->exceptLevels = $levels;
-
         return $this;
     }
 

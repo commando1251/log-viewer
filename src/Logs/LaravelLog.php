@@ -2,6 +2,7 @@
 
 namespace Commando1251\LogViewer\Logs;
 
+use DateTime;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 use Commando1251\LogViewer\Facades\LogViewer;
@@ -38,7 +39,11 @@ class LaravelLog extends Log
 
         preg_match(static::regexPattern(), array_shift($firstLineSplit), $matches);
 
-        $this->datetime = Carbon::parse($matches[1])?->setTimezone(LogViewer::timezone());
+        try {
+            $this->datetime = Carbon::parse($matches[1])?->setTimezone(LogViewer::timezone());
+        } catch (\Exception $e) {
+            $this->datetime = new DateTime();
+        }
 
         // $matches[2] contains microseconds, which is already handled
         // $matches[3] contains timezone offset, which is already handled
