@@ -42,7 +42,7 @@ class LaravelLog extends Log
         try {
             $this->datetime = Carbon::parse($matches[1])?->setTimezone(LogViewer::timezone());
         } catch (\Exception $e) {
-            $this->datetime = new DateTime();
+            $this->datetime = Carbon::now();
         }
 
         // $matches[2] contains microseconds, which is already handled
