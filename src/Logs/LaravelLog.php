@@ -56,7 +56,11 @@ class LaravelLog extends Log
 
         $this->level = strtoupper($matches[6] ?? '');
 
-        $firstLineText = $matches[7];
+        $firstLineText = '';
+
+        if (!empty($matches[7])) {
+            $firstLineText = $matches[7];
+        }
 
         if (! empty($middle)) {
             $firstLineText = $middle.' '.$firstLineText;
